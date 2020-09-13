@@ -7,6 +7,15 @@
     flex-wrap: wrap;
 }
 
+.footer-nav {
+    height: 40vh;
+    width: 98vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#7f8274;
+}
+
 .main-title {
     display:flex;
     justify-content:center;
@@ -25,6 +34,7 @@
     display:flex;
     flex-direction:row;
     justify-content:space-around;
+    padding: 10vh;
 }
 
 div, p, h1, h2{
@@ -36,10 +46,13 @@ h1 {
 }
 
 button {
-    border: 2px solid red;
+    border: 1px solid red;
     height: 5vh;
     width: 10vw;
-    background-color:blue;
+    background-color:#32332c;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 button:hover {
