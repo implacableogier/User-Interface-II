@@ -1,9 +1,48 @@
 /* Add CSS styling here */
+
+
+.header-nav {
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.main-title {
+    display:flex;
+    justify-content:center;
+}
+
+.intro-text {
+    display:flex;
+    justify-content:center;
+}
+
+.picture-row-1 {
+    width: 98vw;
+}
+
 .picture-row-2 {
     display:flex;
     flex-direction:row;
     justify-content:space-around;
 }
-p {
-    text-align: center;
+
+div, p, h1, h2{
+    text-align:center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    border: 2px solid red;
+    height: 5vh;
+    width: 10vw;
+    background-color:blue;
+}
+
+button:hover {
+    background-color:red;
+    color: white;
 }

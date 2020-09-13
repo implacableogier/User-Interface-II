@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
     <title>Jason's First Website</title>
 </head>
 <body>
-    <container>
-    <h1>Jason Cummings</h1>
+    <container class="container">
+    
+    <div class="main-title">
+        <h1>Jason Cummings</h1>
+    </div>
 
-    <nav>
-        <p>Home</p>
-        <p>About</p>
-        <p>Contact</p>
-        <p>Projects</p>
+    <nav class="header-nav">
+        <button onclick="location.href = 'https://www.google.com';" id="myButton" class="float-left submit-button" >Home</button>
+        <button onclick="location.href = 'https://www.google.com';" id="myButton" class="float-left submit-button" >About</button>
+        <button onclick="location.href = 'https://www.google.com';" id="myButton" class="float-left submit-button" >Contact</button>
+        <button onclick="location.href = 'https://www.google.com';" id="myButton" class="float-left submit-button" >Projects</button>
     </nav>
 
-    <h2>This is my site about all the things I love
-        with zero regard for whether you like it.
-    </h2>
+    <div class="intro-text">
+        <h2>This is my site about all the things I love.<br>
+            Maybe you'll like some of these things too.
+        </h2>
+    </div>
 
-    <img src="https://picsum.photos/1600/400" alt="random image">
+    <img class="picture-row-1" src="https://picsum.photos/1600/400" alt="random image">
 
-    <div>
+    <div class="picture-row-2">
         <img src="https://picsum.photos/200/300" alt="a second random image">
         <img src="https://picsum.photos/200/300" alt="a third random photo">
         <img src="https://picsum.photos/200/300" alt="a 4th random image">
-        <p>This is just some text that is pretending to accompany the photos beside it. Big faker.</p>
+        <p>This is just some text that is pretending to<br> 
+            accompany the photos beside it.<br> 
+            Big faker.</p>
     </div>
 
-    <div>
+    <div class="footer-nav">
         <button onclick="location.href = 'https://www.google.com';" id="myButton" class="float-left submit-button" >Contact</button>
     </div>
     
