@@ -44,6 +44,12 @@ time, mark, audio, video {
 .intro-text {
     display:flex;
     justify-content:center;
+    flex-direction:column;
+    margin: 15px;
+}
+
+div.intro-text p {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .picture-row-1 {
