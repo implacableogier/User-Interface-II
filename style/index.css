@@ -64,10 +64,18 @@ div, p, h1, h2{
 h1 {
     font-size: 50px;
     padding: 10vh;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
     padding: 10vh;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div.picture-row-2 p {
+    font-weight: bold;
+    font-size: 17px;
 }
 
 button {
@@ -78,6 +86,8 @@ button {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    border-radius:20px;
+    margin: 5px;
 }
 
 button:hover {
