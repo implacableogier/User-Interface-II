@@ -104,3 +104,17 @@ button:hover {
     background-color:red;
     color: white;
 }
+
+/* Media breakpoints */
+
+@media (max-width:800px) {
+    h1 {
+        background-color: blue;
+    }
+}
+
+@media (max-width:500px) {
+    h1 {
+        background-color:red;
+    }
+}
