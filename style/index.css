@@ -20,6 +20,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /*END OF RESET*/
+html {
+    font-size: 62.5%;
+}
 
 .header-nav {
     display:flex;
@@ -29,7 +32,7 @@ time, mark, audio, video {
 
 .footer-nav {
     height: 40vh;
-    width: 99vw;
+    width: 98vw;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -45,7 +48,8 @@ time, mark, audio, video {
     display:flex;
     justify-content:center;
     flex-direction:column;
-    margin: 15px;
+    margin: 5rem;
+    font-size: 1.5rem;
 }
 
 div.intro-text p {
@@ -53,7 +57,7 @@ div.intro-text p {
 }
 
 .picture-row-1 {
-    width: 99vw;
+    width: 98vw;
 }
 
 .picture-row-2 {
@@ -68,20 +72,20 @@ div, p, h1, h2{
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5rem;
     padding: 10vh;
     font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
     padding: 10vh;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
 div.picture-row-2 p {
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1.5rem;
 }
 
 button {
@@ -91,9 +95,9 @@ button {
     background-color:#32332c;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    border-radius:20px;
-    margin: 5px;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    margin: 1rem;
 }
 
 button:hover {
