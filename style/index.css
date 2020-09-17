@@ -138,11 +138,17 @@ button:hover {
     .footer-nav {
         width: 96vw;
     }
+    button {
+        width: 25vw;
+    }
 
 }
 
 @media (max-width:500px) {
     .footer-nav {
         width: 96vw;
+    }
+    button {
+        width:30vw;
     }
 }
